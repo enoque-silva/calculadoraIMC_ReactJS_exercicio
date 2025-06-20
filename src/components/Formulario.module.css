@@ -1,0 +1,74 @@
+.inputsGroup {
+    margin-bottom: 18px;
+}
+
+.inputsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 16px;
+}
+
+input {
+    box-sizing: border-box;
+    line-height: 2.5;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ffffff24;
+    padding-inline-start: 8px;
+}
+
+button {
+    width: 100%
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    color: #fff;
+    border-collapse: collapse;
+}
+
+.titleTable {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 1px solid #ffffff24;
+    padding: 8px;
+}
+
+.cellTable {
+    border: 1px solid #ffffff24;
+    padding: 8px;
+}
+
+.hoverCellTable {
+    color: #00ff91;
+    font-weight: bold;
+    border: 1px solid #ffffff24;
+    padding: 8px;
+}
+
+.resultadoView {
+    margin-bottom: 16px;
+}
+
+.resultadoView h2 {
+   
+   margin-bottom: 8px; 
+}
+
+.resultadoView h2+p {
+    color: #00ff91;
+    font-size: 24px;
+}
+
+.resultadoView p {
+    margin: 0;
+    padding: 0;
+}
