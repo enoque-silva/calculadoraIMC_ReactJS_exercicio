@@ -54,7 +54,7 @@ export default () => {
                         <input type="number" placeholder='Ex: 70' onChange={(e) => setPeso(e.target.value)} />
                     </div>
                     <div className={styles.inputsItem}>
-                        <label>Altura (m):</label>
+                        <label>Altura (cm):</label>
                         <input type="number" placeholder='Ex: 180' onChange={(e) => setAltura(e.target.value)} />
                     </div>
                 </div>
